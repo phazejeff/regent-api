@@ -1,6 +1,6 @@
 services:
   regent-api:
-    image: phazejeff/regent-api:latest
+    image: phazejeff/regent-api:main
     ports:
       - "8000:8000"
     environment:
