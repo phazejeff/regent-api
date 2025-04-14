@@ -1,0 +1,7 @@
+services:
+  regent-api:
+    image: phazejeff/regent-api:latest
+    ports:
+      - "8000:8000"
+    environment:
+      - FACEIT_API_KEY=aaaa
